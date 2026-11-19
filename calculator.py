@@ -9,5 +9,5 @@ def record(value, history=None):
     return history
 
 
-def broken_total():
-    return missing_total
+def broken_total(values=()):
+    return sum(values)
